@@ -1,5 +1,9 @@
 // Calculate the number of ways to reach (n-1, m-1)?
 // Rules: Pointer will only travel in right direction or down, on other direction is allowed
+// Time Complexity: O(2^(n+m)
+
+//Other ways to solve this problem with linear time complexity(O(n+m)): that is using concept of permutation
+// Formula: ((n-1)+(m-1))!/ (n-1)! * (m-1)!
 public class GridWays {
  public static int gridWays(int i, int j, int n, int m){
      //base case
